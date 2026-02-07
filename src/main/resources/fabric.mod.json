@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "fakefps",
 	"version": "${version}",
-	"name": "FakeFPS",
+	"name": "FakeFPS++",
 	"description": "A fun mod that allows you to set a fake FPS counter for pranks.",
 	"authors": [
 		"marblock"
