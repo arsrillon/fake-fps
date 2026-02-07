@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "fakefps",
+	"version": "${version}",
+	"name": "FakeFPS",
+	"description": "A fun mod that allows you to set a fake FPS counter for pranks.",
+	"authors": [
+		"marblock"
+	],
+	"contact": {
+		"sources": "https://github.com/arsrillon/fake-fps"
+	},
+	"license": "MIT",
+	"icon": "assets/fakefps/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.marblock.fakefps.FakeFPS"
+		]
+	},
+	"mixins": [
+		"fakefps.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
