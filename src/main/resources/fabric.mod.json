@@ -14,7 +14,7 @@
 	"icon": "assets/fakefps/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": [
+		"client": [
 			"net.marblock.fakefps.FakeFPS"
 		]
 	},
