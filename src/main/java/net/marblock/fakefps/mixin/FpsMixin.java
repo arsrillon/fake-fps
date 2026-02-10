@@ -6,7 +6,7 @@ import net.minecraft.client.gui.hud.debug.FpsDebugHudEntry;
 import net.minecraft.client.option.GameOptions;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.WorldChunk;
-import org.jspecify.annotations.Nullable;
+import org.jetbrains.annotations.Nullable;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 import org.spongepowered.asm.mixin.Unique;
